@@ -12,11 +12,8 @@ services:
       - datenbank-speicher:/var/lib/mysql
     ports:
       - "3306:3306"
-
-  datenbank-verwaltung:
+  adminer:
     image: adminer
-    container_name: datenbank-verwaltung
-    ports:
-      - "8080:8080"
     restart: always
-
+    ports:
+      - 8080:8080

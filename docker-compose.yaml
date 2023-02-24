@@ -21,4 +21,4 @@ services:
     restart: always
 
 volumes:
-  datenbank-speicher:' > /root/uebungsprojekt/datenbank/docker-compose.yml
+  datenbank-speicher:

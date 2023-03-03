@@ -1,7 +1,7 @@
 version: "3"
 services:
   datenbank:
-    image: mysql:latest
+    image: ltr136181/testprojekt-m169d:latest
     container_name: datenbank
     environment:
       MYSQL_ROOT_PASSWORD: datenbank

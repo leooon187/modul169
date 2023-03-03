@@ -1,7 +1,7 @@
 version: "3"
 services:
   webserver:
-    image: nginx:latest
+    image: ltr136181/testprojekt-m169:latest
     container_name: webserver
     ports:
       - "80:80"
